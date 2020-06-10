@@ -37,3 +37,13 @@ hr {
   border-radius: 15px;
   margin: 10px;
 }
+
+.teamMembers {
+  width: 30%;
+  margin: 0 auto;
+  background-color: cadetblue;
+  font-size: 15px;
+  font-family: cursive;
+  border-radius: 150px;
+  box-shadow: darkblue 5px 5px;
+}

@@ -34,12 +34,13 @@ function App() {
       <h1>Team</h1>
       <hr />
       <Form onSubmit={submit} team={tm} onChange={changeInfo} />
+      <h2>Team below</h2>
       {data.map((e) => {
         return (
-          <div>
-            <p>{e.name}</p>
-            <p>{e.email}</p>
-            <p>{e.role}</p>
+          <div className="teamMembers">
+            <p>name:{e.name}</p>
+            <p>email:{e.email}</p>
+            <p>role:{e.role}</p>
           </div>
         );
       })}
